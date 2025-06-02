@@ -43,18 +43,18 @@ const ChanceKartHero = () => {
           >
             Pricing
           </a>
-          <a
-            href="/next"
+          <Link
+            to="/next"
             className="text-black hover:text-orange-500 transition-colors"
           >
             Reviews
-          </a>
-          <a
-            href="/sc"
+          </Link>
+          <Link
+            to="/sc"
             className="text-black hover:text-orange-500 transition-colors"
           >
             FAQ
-          </a>
+          </Link>
         </nav>
 
         {/* Desktop Auth Buttons - Hidden on mobile */}
@@ -93,34 +93,34 @@ const ChanceKartHero = () => {
             >
               Home
             </a>
-            <a
-              href="/next"
+            <Link
+              to="/next"
               className="text-black hover:text-orange-500 transition-colors py-2 border-b border-gray-100"
               onClick={() => setMobileMenuOpen(false)}
             >
               How it works
-            </a>
-            <a
-              href="/next"
+            </Link>
+            <Link
+              to="/next"
               className="text-black hover:text-orange-500 transition-colors py-2 border-b border-gray-100"
               onClick={() => setMobileMenuOpen(false)}
             >
               Pricing
-            </a>
-            <a
-              href="/next"
+            </Link>
+            <Link
+              to="/next"
               className="text-black hover:text-orange-500 transition-colors py-2 border-b border-gray-100"
               onClick={() => setMobileMenuOpen(false)}
             >
               Reviews
-            </a>
-            <a
-              href="/next"
+            </Link>
+            <Link
+              to="/sc"
               className="text-black hover:text-orange-500 transition-colors py-2 border-b border-gray-100"
               onClick={() => setMobileMenuOpen(false)}
             >
               FAQ
-            </a>
+            </Link>
             <div className="flex flex-col space-y-3 pt-2">
               <a
                 href="/login"
