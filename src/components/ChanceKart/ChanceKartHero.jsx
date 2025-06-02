@@ -31,25 +31,25 @@ const ChanceKartHero = () => {
             Home
           </a>
           <a
-            href="/how-it-works"
+            href="/next"
             className="text-black hover:text-orange-500 transition-colors"
           >
             How it works
           </a>
           <a
-            href="/pricing"
+            href="/next"
             className="text-black hover:text-orange-500 transition-colors"
           >
             Pricing
           </a>
           <a
-            href="/reviews"
+            href="/next"
             className="text-black hover:text-orange-500 transition-colors"
           >
             Reviews
           </a>
           <a
-            href="/faq"
+            href="/sc"
             className="text-black hover:text-orange-500 transition-colors"
           >
             FAQ
@@ -93,28 +93,28 @@ const ChanceKartHero = () => {
               Home
             </a>
             <a
-              href="/how-it-works"
+              href="/next"
               className="text-black hover:text-orange-500 transition-colors py-2 border-b border-gray-100"
               onClick={() => setMobileMenuOpen(false)}
             >
               How it works
             </a>
             <a
-              href="/pricing"
+              href="/next"
               className="text-black hover:text-orange-500 transition-colors py-2 border-b border-gray-100"
               onClick={() => setMobileMenuOpen(false)}
             >
               Pricing
             </a>
             <a
-              href="/reviews"
+              href="/next"
               className="text-black hover:text-orange-500 transition-colors py-2 border-b border-gray-100"
               onClick={() => setMobileMenuOpen(false)}
             >
               Reviews
             </a>
             <a
-              href="/faq"
+              href="/next"
               className="text-black hover:text-orange-500 transition-colors py-2 border-b border-gray-100"
               onClick={() => setMobileMenuOpen(false)}
             >
