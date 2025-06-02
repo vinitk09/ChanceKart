@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react"; // Import icons for mobile menu
 import logo from "../../assets/image/logo.svg";
+import { Link } from "react-router-dom";
 
 const ChanceKartHero = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -24,18 +25,18 @@ const ChanceKartHero = () => {
 
         {/* Desktop Navigation - Hidden on mobile */}
         <nav className="hidden md:flex items-center space-x-6 lg:space-x-8 mx-auto">
-          <a
-            href="#"
+          <Link
+            to="#"
             className="text-black hover:text-orange-500 transition-colors"
           >
             Home
-          </a>
-          <a
-            href="/next"
+          </Link>
+          <Link
+            to="/next"
             className="text-black hover:text-orange-500 transition-colors"
           >
             How it works
-          </a>
+          </Link>
           <a
             href="/next"
             className="text-black hover:text-orange-500 transition-colors"
