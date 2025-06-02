@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ChevronRight } from "lucide-react";
 import panda from "../components/HeroImage/panda.png";
-import br from "../components/HeroImage/berlin.jpeg";
+// import br from "../components/HeroImage/berlin.jpeg";
 import car from "../components/HeroImage/car-bg.jpg";
 import ebs from "../components/HeroImage/ebs.jpeg";
 import esmt from "../components/HeroImage/esmt.jpeg";
@@ -17,7 +17,7 @@ export default function Hero2() {
   const universityData = [
     {
       id: 1,
-      image: br, // Path to image
+      // image: br, // Path to image
       title: "Berlin School of Business and Innovation (BSBI)",
       program: "Global MBA (#98)",
       duration: "12 Months - Online",
